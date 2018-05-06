@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Reproducible Builds Styleguide"
 date:   2018-05-06 12:24:53 +0200
 categories: jekyll update
 ---
