@@ -1,5 +1,5 @@
 ---
-  layout: page
+  layout: visuals
   title: Visuals
   permalink: /visuals/
 ---
