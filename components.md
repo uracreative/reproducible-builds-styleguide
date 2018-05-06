@@ -2,6 +2,14 @@
   layout: components
   title: Components
   permalink: /components/
+
+  sidebar:
+  - buttons: Buttons
+  - forms: Forms
+  - badges: Badges
+  - tables: Tables
+  - cards: Cards
+  - scrollspy: Scrollspy
 ---
 
 This is the components page
