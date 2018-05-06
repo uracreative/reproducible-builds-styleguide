@@ -26,18 +26,13 @@ url: "https://budaaaa.github.io/" # the base hostname & protocol for your site, 
 twitter_username: jekyllrb
 github_username:  jekyll
 
+current_url: window.location
+
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
-
-# bootstrap
-bootstrap_styles:
-bootstrap_js:
-jquery:
-
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
