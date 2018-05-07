@@ -1,0 +1,36 @@
+.color {
+  height: 100px;
+
+}
+
+.first {
+  border-radius: 7px;
+    background-color: $oc-red-4;
+}
+
+.second {
+  border-radius: 7px;
+    background-color: $oc-blue-5;
+}
+
+.third {
+  border-radius: 7px;
+  background-color: $oc-orange-5;
+}
+
+.grid {
+  height: 100px;
+  background-color: $oc-pink-3;
+  border-radius: 7px;
+
+  & span {
+    margin: 10px 10px 10px 10px;
+    color: white;
+  }
+}
+
+.icon {
+  font-size: 20px;
+  background-color: $oc-gray-2;
+  padding: 20px;
+}
