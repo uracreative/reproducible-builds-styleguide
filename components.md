@@ -10,6 +10,11 @@
   - tables: Tables
   - cards: Cards
   - scrollspy: Scrollspy
+
+  navbar:
+  - /: About
+  - visuals: Visuals
+  - components: Components
 ---
 
 This is the components page

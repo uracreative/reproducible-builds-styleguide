@@ -4,7 +4,10 @@
   <body>
     {% include navbar.html %}
     <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12">
+      <div class="col-md-2 col-sm-12 col-xs-12 display-md">
+        {% include navbar_side.html participants=site.data.profiles %}
+      </div>
+        <div class="col-md-10 col-sm-12 col-xs-12">
           {{ content }}
         </div>
     </div>
