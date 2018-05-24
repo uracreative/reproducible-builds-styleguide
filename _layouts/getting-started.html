@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+{% include head.html %}
+<body>
+{% include navbar.html %}
+<div class="row">
+    <div class="col-md-2 col-sm-12 col-xs-12 display-md">
+        {% include navbar_side.html participants=site.data.profiles %}
+    </div>
+    <div class="col-md-10 col-sm-12 col-xs-12">
+        <main role="main" class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 content-scroll" data-spy="scroll"
+              data-target="#components-nav" data-offset="0">
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-header mb-4 mt-4">
+                        <h3>Getting started</h3>
+                        <p class="text-muted">We are making Tor usable for everyone.</p>
+                    </div>
+                    <p>The Tor Styleguide is based on <a href="https://getbootstrap.com/">Bootstrap</a>, an open-source
+                        toolkit for developing with HTML, CSS, and JS. We are currently implementing <a
+                                href="https://github.com/twbs/bootstrap/releases/tag/v4.0.0-beta.2">v4.0.0-beta.2</a>.
+                    </p>
+                    <p>To use the Tor styleguide, you can download our <a
+                            href="https://oniongit.eu/infra/styleguide/tree/master/assets/static">css style</a> and
+                        import it in your project. Alternatively, you can also clone this repository and use our SASS
+                        files. <a href="http://sass-lang.com/">SASS</a> is a CSS extension language. Bootstrap and this
+                        styleguide are based on <a
+                                href="http://sass-lang.com/documentation/file.SASS_CHANGELOG.html#3_5_4__15_December_2017_">v3.5.4</a>.
+                    </p>
+                    <p class="purple">
+                        If you want to use SASS you can download the complete archive for the <a
+                            href="https://oniongit.eu/infra/styleguide">styleguide</a>. The <a
+                            href="https://oniongit.eu/infra/styleguide/tree/master/assets/scss">scss folder under
+                        assets</a> contains all the sass files. Since we use bootstrap, we only add a few styles without
+                        modifying bootstrap core or defining new elements whenever possible. These are <a
+                            href="https://oniongit.eu/infra/styleguide/blob/master/assets/scss/_tor-variables.scss">_tor_variables.scss</a>
+                        and <a
+                            href="https://oniongit.eu/infra/styleguide/blob/master/assets/scss/_tor.scss">_tor.scss</a>.
+                        These are imported in the main bootstrap scss file and compiled into the final css.</p>
+                    <p>Bootstrap contains a few JavaScript libraries for extra interaction with the DOM. We use these
+                        libraries but do not add extra JavaScript. You might notice that if you run Tor Browser with
+                        high security mode, JavaScript is disabled by default.
+                        <mark>This styleguide is designed to also work for users using Tor Browser in high security
+                            mode
+                        </mark>
+                        , so that only few elements are affected if you disable JavaScript.
+                    </p>
+                    <p>This styleguide has been built using <a href="https://www.getlektor.com/">Lektor</a>. Lektor is a
+                        static content management system. You can build this yourself by <a
+                                href="https://www.getlektor.com/downloads/">installing Lektor</a>.</p>
+                    <div class="border p-5 mb-3">
+                        <h6>Use The Tor Project Styleguide</h6>
+                        <p class="m-0">This package includes .scss and .css files</p>
+                        <a class="btn btn-lg btn-link p-0" title="Tor Media Repo"
+                           href="https://oniongit.eu/infra/styleguide" target="_blank">Visit Repo</a></div>
+                    <div>
+                        <p class="m-0">Tor UX Team</p>
+                        <button class="btn btn-link p-0">ux@lists.torproject.org</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <p class="mt-5 mb-5">
+                        <span class="text-muted small"> Styleguide code licensed under <a
+                                href="https://opensource.org/licenses/MIT" title="MIT" target="_blank">MIT</a>, documents licensed under a <a
+                                href="https://creativecommons.org/licenses/by/3.0/us/" title="CC 3.0" target="_blank">Creative Commons Attribution 3.0 United States License</a>. Please see our <a
+                                href="https://www.torproject.org/docs/trademark-faq.html" title="Trademark FAQ"
+                                target="_blank">Trademark Policy</a> for guidelines on the appropriate use of Tor Project trademarks. The Tor Project is a US 501(c)(3) non-profit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, supporting their unrestricted availability and use, and furthering their scientific and popular understanding.</span>
+                    </p>
+                </div>
+            </div>
+
+
+        </main>
+    </div>
+</div>
+{% include scripts.html %}
+</body>
+</html>

@@ -7,7 +7,6 @@
    - colors: Colors
    - grid: Grid
    - typography: Typography
-   - icons: Icons
    - assets: Assets
 
   icons:
