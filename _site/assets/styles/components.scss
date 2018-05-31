@@ -1,0 +1,24 @@
+.navbar {
+  // background-color: $primary !important;
+
+}
+
+.background-primary {
+  background-color: $primary;
+}
+
+.background-secondary {
+  background-color: $secondary;
+}
+
+.color-primary {
+  color: $primary
+}
+
+.color-secondary {
+  color: $secondary;
+}
+
+.font-family-serif {
+  $font: 'Overpass', serif !important;
+}

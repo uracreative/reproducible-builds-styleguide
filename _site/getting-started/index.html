@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Reproducible Builds</title>
+  <link rel="stylesheet" href="/reproducible-builds-styleguide/assets/styles/main.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light sticky-top rp-navbar__top">
+  <a class="navbar-brand" href="/reproducible-builds-styleguide/">
+    <img src="/reproducible-builds-styleguide/assets/images/logo-text-white.png"  height="30" width="auto" alt=""></img>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto display-xs">
+        <li class="nav-item">
+          <a class="nav-link" href="/reproducible-builds-styleguide/">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/reproducible-builds-styleguide/visuals/">Visuals</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/reproducible-builds-styleguide/components/">Components</a>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+<div class="row">
+    <div class="col-md-2 col-sm-12 col-xs-12 display-md p-0">
+        <div class="sidebar rb-sidebar__1" id="sidebar1">
+  <ul class="list-group">
+    <li class="list-group-item rb-main-sidebar">
+      <a href="/reproducible-builds-styleguide/" class="sidebar__link__darkGray">About</a>
+    </li>
+
+    <li class="list-group-item rb-main-sidebar">
+      <a href="/reproducible-builds-styleguide/getting-started/" class="sidebar__link__darkGray">Getting Started</a>
+    </li>
+
+    <li class="list-group-item rb-main-sidebar">
+      <a href="/reproducible-builds-styleguide/visuals/" class="sidebar__link__darkGray">Visuals</a>
+    </li>
+
+    <li class="list-group-item rb-main-sidebar">
+      <a href="/reproducible-builds-styleguide/components/" class="sidebar__link__darkGray">Components</a>
+    </li>
+  </ul>
+</div>
+
+    </div>
+    <div class="col-md-10 col-sm-12 col-xs-12 p-0">
+        <main role="main" class="col-12 col-md-9 col-xl-8 content-scroll p-0" data-spy="scroll"
+              data-target="#components-nav" data-offset="0">
+            <div class="row">
+                <div class="col-12 p-0">
+                    <div class="page-header mb-4 mt-4">
+                        <h3>Getting started</h3>
+                        <p class="text-muted">We are making Reproducible Builds usable for everyone.</p>
+                    </div>
+                    <p>The Reproducible Builds styleguide is based on <a href="https://getbootstrap.com/">Bootstrap</a>, an open-source
+                        toolkit for developing with HTML, CSS, and JS. We are currently implementing <a
+                                href="https://github.com/twbs/bootstrap/releases/tag/v4.0.0-beta.2">v4.0.0-beta.2</a>.
+                    </p>
+                    <p>To use the Reproducible Builds styleguide, you can download our css style and
+                        import it in your project. Alternatively, you can also clone this repository and use our SASS
+                        files. <a href="http://sass-lang.com/">SASS</a> is a CSS extension language. Bootstrap and this
+                        styleguide are based on <a
+                                href="http://sass-lang.com/documentation/file.SASS_CHANGELOG.html#3_5_4__15_December_2017_">v3.5.4</a>.
+                    </p>
+                    <p class="purple">
+                        If you want to use SASS you can download the complete archive for the styleguide. The scss folder under
+                        assets contains all the sass files. Since we use bootstrap, we only add a few styles without
+                        modifying bootstrap core or defining new elements whenever possible.
+                        These are imported in the main bootstrap scss file and compiled into the final css.</p>
+                    <p>Bootstrap contains a few JavaScript libraries for extra interaction with the DOM. We use these
+                        libraries but do not add extra JavaScript.
+                        <mark>This styleguide is designed to also work for users using Tor Browser in high security
+                            mode
+                        </mark>
+                        , so that only few elements are affected if you disable JavaScript.
+                    </p>
+                    <p>This styleguide has been built using <a href="https://www.getlektor.com/">Lektor</a>. Lektor is a
+                        static content management system. You can build this yourself by <a
+                                href="https://www.getlektor.com/downloads/">installing Lektor</a>.</p>
+                    <div class="border p-5 mb-3">
+                        <h6>Use the Reproducible Builds Styleguide</h6>
+                        <p class="m-0">This package includes .scss and .css files</p>
+                        <a class="btn btn-lg btn-link p-0" title="Tor Media Repo"
+                           href="https://oniongit.eu/infra/styleguide" target="_blank">Visit Repo</a></div>
+                    <div>
+                        <p class="m-0">Reproducible Builds Team</p>
+                        <button class="btn btn-link p-0">team@reproducible-builds.org</button>
+                    </div>
+                </div>
+            </div>
+
+            <h1 id="scrollspy"> </h1>
+<div class="page-header mb-4 mt-5 d-none d-sm-none">
+    <h3>Scrollspy</h3>
+    <!--p class="text-muted">Some Description about scrollspy.</p-->
+</div>
+<div class="row p-5 bg-light d-none d-sm-none">
+    <div class="bd-example">
+        <div class="row">
+            <div class="col-4">
+                <div id="list-example" class="list-group">
+                    <a class="list-group-item list-group-item-action active" href="https://reproducible-builds.org/">Reproducible builds</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-2">Second Link</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-3">Third Link</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-4">Forth Link</a>
+                </div>
+            </div>
+            <div class="col-8">
+                <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem error eum inventore laboriosam necessitatibus nobis numquam praesentium quae tempore. Dignissimos minima rerum tenetur vel vero! Eius molestias natus nesciunt!
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-12">
+        <p class="mt-5 mb-5">
+            <span class="text-muted small"> Styleguide code licensed under <a href="https://opensource.org/licenses/MIT" title="MIT" target="_blank">MIT</a>, documents licensed under a <a href="https://creativecommons.org/licenses/by/3.0/us/" title="CC 3.0" target="_blank">Creative Commons Attribution 3.0 United States License</a>. Reproducible Builds are a set of software development practices that create an independently-verifiable path from source code to the binary code used by computers.</span>
+        </p>
+    </div>
+</div>
+
+
+        </main>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+<script type="text/javascript" src="/reproducible-builds-styleguide/assets/javascript/index.js"></script>
+
+</body>
+</html>
