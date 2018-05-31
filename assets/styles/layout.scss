@@ -1,14 +1,14 @@
 
 .border-left-right {
     // z-index: 99;
-    border-left: 1px solid $oc-gray-1 !important;
-    border-right: 1px solid $oc-gray-1 !important;
+    border-left: 1px solid $oc-gray-3 !important;
+    border-right: 1px solid $oc-gray-3 !important;
 }
 
 .sidebar {
   min-height: 100vh;
   height: 100%;
-  width: 165px;
+  width: 180px;
   position: fixed;
 
   & .list-group {
@@ -17,7 +17,7 @@
   }
 
   & .list-group-item {
-    // background-color: $oc-gray-2;
+    background-color: transparent;
     border: 0;
     border-radius: 0 !important;
     // border-color: $oc-gray-4;
@@ -32,7 +32,7 @@
   color: $oc-gray-8 !important;
 
   &:hover {
-    color: $oc-blue-8 !important
+    color: $primary !important
     // color: $oc-gray-8 !important;
   }
 }
@@ -43,4 +43,24 @@
 
 .row {
   margin: auto !important;
+}
+
+.active {
+  background-color: transparent !important;
+  color: $secondary !important;
+  & * {
+    color: $secondary !important;
+  }
+}
+
+.rp-navbar__top {
+  background-color: $primary;
+}
+
+.rb-sidebar__1 {
+  background-color: $oc-gray-1;
+}
+
+.rb-sidebar__2 {
+  background-color: $oc-gray-0;
 }
