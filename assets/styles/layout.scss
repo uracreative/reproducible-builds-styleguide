@@ -38,6 +38,9 @@
 }
 
 .container-wrapper {
+    padding-top: 30px;
+    padding-left: 70px !important;
+    padding-right: 100px !important;
     background: white;
 }
 
@@ -48,6 +51,8 @@
 .active {
   background-color: transparent !important;
   color: $secondary !important;
+  font-weight: bold;
+  
   & * {
     color: $secondary !important;
   }
@@ -63,4 +68,10 @@
 
 .rb-sidebar__2 {
   background-color: $oc-gray-0;
+}
+
+.rb-contain {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
 }
