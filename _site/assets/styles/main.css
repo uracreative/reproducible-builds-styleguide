@@ -1,6 +1,6 @@
 .border-left-right { border-left: 1px solid #dee2e6 !important; border-right: 1px solid #dee2e6 !important; }
 
-.sidebar { min-height: 100vh; height: 100%; width: 180px; position: fixed; }
+.sidebar { min-height: 100vh; height: 100%; width: 100%; }
 .sidebar .list-group { position: fixed; }
 .sidebar .list-group-item { background-color: transparent; border: 0; border-radius: 0 !important; }
 

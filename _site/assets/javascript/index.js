@@ -19,7 +19,7 @@ $(document).ready(function () {
 	var listItems = $('.rb-main-sidebar');
 	$.each(listItems, function (key, litem) {
 			var aElement = $(this).children(litem)[0];
-			console.log(aElement.href, document.URL.split('#')[0]);
+
 			if(aElement.href == document.URL.split('#')[0]) {
 					$(litem).addClass('active');
 			}

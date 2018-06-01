@@ -8,8 +8,9 @@
 .sidebar {
   min-height: 100vh;
   height: 100%;
-  width: 180px;
-  position: fixed;
+  width: 100%;
+
+  // position: fixed;
 
   & .list-group {
     position: fixed;
@@ -52,7 +53,7 @@
   background-color: transparent !important;
   color: $secondary !important;
   font-weight: bold;
-  
+
   & * {
     color: $secondary !important;
   }
