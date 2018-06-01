@@ -24,6 +24,8 @@
 
 .rb-contain { width: 100%; height: auto; max-height: 100%; }
 
+.max-width-150 { max-width: 150px; }
+
 .color { height: 100px; }
 
 .grid { height: 100px; background-color: #1e5b96; border-radius: 7px; }
@@ -34,6 +36,26 @@
 .background-primary { background-color: #1e5b96; }
 
 .background-secondary { background-color: #2b89d6; }
+
+.background-gray-0 { background-color: #f8f9fa; }
+
+.background-gray-1 { background-color: #f1f3f5; }
+
+.background-gray-2 { background-color: #e9ecef; }
+
+.background-gray-3 { background-color: #dee2e6; }
+
+.background-gray-4 { background-color: #ced4da; }
+
+.background-gray-5 { background-color: #adb5bd; }
+
+.background-gray-6 { background-color: #868e96; }
+
+.background-gray-7 { background-color: #495057; }
+
+.background-gray-8 { background-color: #343a40; }
+
+.background-gray-9 { background-color: #212529; }
 
 .color-primary { color: #1e5b96; }
 
