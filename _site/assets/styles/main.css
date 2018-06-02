@@ -88,8 +88,8 @@
 
 .badge-secondary { background-color: #2b89d6 !important; }
 
-a { color: #1e5b96 !important; }
-a:hover { color: #2b89d6 !important; }
+.rb-link { color: #1e5b96 !important; }
+.rb-link:hover { color: #2b89d6 !important; }
 
 .rb-paginate-active { background-color: #1e5b96 !important; color: white !important; }
 .rb-paginate-active:hover { background-color: #2b89d6 !important; }
