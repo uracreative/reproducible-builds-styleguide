@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90004ecf-242b-42e7-bff6-d1708a1d4fe6" name="Default" comment="Adding layout updates">
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/images/placeholder.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_includes/components/cards.html" afterPath="$PROJECT_DIR$/_includes/components/cards.html" />
-      <change beforePath="$PROJECT_DIR$/_includes/components/paginate.html" afterPath="$PROJECT_DIR$/_includes/components/paginate.html" />
-      <change beforePath="$PROJECT_DIR$/_includes/components/tables.html" afterPath="$PROJECT_DIR$/_includes/components/tables.html" />
-      <change beforePath="$PROJECT_DIR$/_includes/scrollspy.html" afterPath="$PROJECT_DIR$/_includes/scrollspy.html" />
       <change beforePath="$PROJECT_DIR$/_layouts/getting-started.html" afterPath="$PROJECT_DIR$/_layouts/getting-started.html" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/styles/components.scss" afterPath="$PROJECT_DIR$/_site/assets/styles/components.scss" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/styles/main.css" afterPath="$PROJECT_DIR$/_site/assets/styles/main.css" />
-      <change beforePath="$PROJECT_DIR$/_site/components/index.html" afterPath="$PROJECT_DIR$/_site/components/index.html" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
       <change beforePath="$PROJECT_DIR$/_site/getting-started/index.html" afterPath="$PROJECT_DIR$/_site/getting-started/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/visuals/index.html" afterPath="$PROJECT_DIR$/_site/visuals/index.html" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/components.scss" afterPath="$PROJECT_DIR$/assets/styles/components.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,16 +29,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/navbar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="tables.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/components/tables.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,11 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getting-started.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="getting-started.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/getting-started.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+            <state relative-caret-position="244">
+              <caret line="24" column="73" lean-forward="false" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/head.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="81" lean-forward="false" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -100,7 +89,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="components.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="components.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/styles/components.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="643">
@@ -226,11 +215,11 @@
         <option value="$PROJECT_DIR$/_includes/components/forms.html" />
         <option value="$PROJECT_DIR$/_includes/visuals/colors.html" />
         <option value="$PROJECT_DIR$/_includes/components/tables.html" />
-        <option value="$PROJECT_DIR$/_layouts/getting-started.html" />
         <option value="$PROJECT_DIR$/_includes/scrollspy.html" />
         <option value="$PROJECT_DIR$/_includes/components/cards.html" />
         <option value="$PROJECT_DIR$/_includes/components/paginate.html" />
         <option value="$PROJECT_DIR$/assets/styles/components.scss" />
+        <option value="$PROJECT_DIR$/_layouts/getting-started.html" />
       </list>
     </option>
   </component>
@@ -279,12 +268,6 @@
             <path>
               <item name="retry" type="b2602c69:ProjectViewProjectNode" />
               <item name="retry" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="retry" type="b2602c69:ProjectViewProjectNode" />
-              <item name="retry" type="462c0819:PsiDirectoryNode" />
               <item name="_layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -312,7 +295,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="plugins&#9;null&#9;null&#10;vars&#9;FILE&#9;file:///Users/kristibuda/Documents/work/retry/assets/styles/vars.scss&#10;vars.&#9;FILE&#9;file:///Users/kristibuda/Documents/work/retry/.sass-cache/assets/styles/vars.scss&#10;main&#9;FILE&#9;file:///Users/kristibuda/Documents/work/retry/_site/assets/main.css" />
+    <property name="SearchEverywhereHistoryKey" value="head&#9;FILE&#9;file:///Users/kristibuda/Documents/work/retry/_includes/head.html&#10;plugins&#9;null&#9;null&#10;vars&#9;FILE&#9;file:///Users/kristibuda/Documents/work/retry/assets/styles/vars.scss&#10;vars.&#9;FILE&#9;file:///Users/kristibuda/Documents/work/retry/.sass-cache/assets/styles/vars.scss&#10;main&#9;FILE&#9;file:///Users/kristibuda/Documents/work/retry/_site/assets/main.css" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -357,7 +340,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18178000" />
+    <option name="totallyTimeSpent" value="18725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="842" extended-state="0" />
@@ -939,14 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="86" lean-forward="false" selection-start-line="6" selection-start-column="86" selection-end-line="6" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -984,14 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/getting-started.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/scrollspy.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1020,6 +987,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="643">
           <caret line="116" column="43" lean-forward="false" selection-start-line="116" selection-start-column="43" selection-end-line="116" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="81" lean-forward="false" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/getting-started.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="24" column="73" lean-forward="false" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
           <folding />
         </state>
       </provider>
