@@ -6,13 +6,14 @@
   <link rel="stylesheet" href="/reproducible-builds-styleguide/assets/styles/main.css">
 
   <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Overpass+Mono" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 </head>
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-light sticky-top rp-navbar__top">
-  <a class="navbar-brand" href="/reproducible-builds-styleguide/">
+  <a class="navbar-brand" href="https://reproducible-builds.org/">
     <img src="/reproducible-builds-styleguide/assets/images/logo-text-white.png"  height="30" width="auto" alt=""></img>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,7 +40,7 @@
           <div class="col-md-6 col-sm-6 col-xs-6 p-0 display-md">
             <div class="sidebar rb-sidebar__1" id="sidebar1">
   <ul class="list-group">
-    <li class="list-group-item rb-main-sidebar">
+    <li class="list-group-item rb-main-sidebar padding-top-30">
       <a href="/reproducible-builds-styleguide/" class="sidebar__link__darkGray">About</a>
     </li>
 
@@ -60,7 +61,7 @@
           </div>
           <div class="col-md-6 col-sm-12 col-xs-12 p-0">
             <div class="sidebar border-left-right rb-sidebar__2" id="sidebar">
-  <ul class="list-group">
+  <ul class="list-group padding-top-18">
     
       
         <li class="list-group-item rb-sidebar">
@@ -92,7 +93,7 @@
           </div>
         </div>
       </div>
-        <div class="col-md-9 col-sm-8 col-xs-8 container">
+        <div class="col-md-9 col-sm-8 col-xs-8 container-wrapper">
           <h1>Visuals</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
@@ -295,7 +296,7 @@
         </div>
     </div>
 </div>
-          <h1 id="typography"> </h1>
+          <h1 id="typography"></h1>
 <div class="page-header mb-4 mt-5">
     <h3>Typography</h3>
     <p class="text-muted">Our main typography is Overpass made by Red Hat.</p>
@@ -325,20 +326,24 @@
         <h1 class="display-4 color-primary">Reproducible Builds</h1>
     </div>
 </div>
-<div class="row">
-    <div class="col-12 pt-5">
-        <p class="text-black small text-muted">Paragraph</p>
-    </div>
+<div class="row pt-5">
     <div class="col">
-        <p class="text-black small text-muted">Overpass</p>
+        <p class="text-black small">
+            <span class="text-left color-gray-2 rb-isBold">Paragraph</span>
+            <span class="text-right color-primary rb-isBold" style="float: right;">Overpass Regular</span>
+        </p>
         <p>
-            Reproducible Builds are a set of software development practices that create an <mark>independently-verifiable path from source code to the binary code</mark> used by computers.
+            Reproducible Builds are a set of software development practices that create an
+            <mark>independently-verifiable path from source code to the binary code</mark>
+            used by computers.
         </p>
     </div>
     <div class="col">
-        <p class="text-black small text-muted text-right
-           ">Code Snippet</p>
-        <pre class="bg-light p-2 prettyprint" style="border: none; font-family: 'Overpass', sans-serif">
+        <p class="text-black small">
+            <span class="text-left color-gray-2 rb-isBold">Code Snippet</span>
+            <span class="text-right color-primary rb-isBold" style="float: right;">Overpass Mono</span>
+        </p>
+        <pre class="bg-light p-2 prettyprint rb-code" style="border: none;">
           $('.rb-sidebar').on('click', 'a',function() {
               $('.rb-sidebar a.active').removeClass('active');
               $(this).addClass('active');
@@ -347,91 +352,156 @@
     </div>
 </div>
 
-          <h1 id="assets"> </h1>
-  <div class="page-header mb-4 mt-5">
+          <h1 id="assets"></h1>
+<div class="page-header mb-4 mt-5">
     <h3>Identity Assets</h3>
     <p class="text-muted">The Reproducible Builds Project brand assets are included here. Use them responsibly.</p>
-  </div>
-  <div class="row">
+</div>
+<div class="row">
     <div class="col-sm-3">
-      <div class="image border p-5">
-        <img src="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_1.svg" class="rb-contain">
-      </div>
-      <h6 class="text-left pt-3">Default</h6>
-    </div>
-    <div class="col-sm-3">
-      <div class="image border p-5">
-        <img src="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_3.svg" class="rb-contain">
-      </div>
-      <h6 class="text-left pt-3">Black</h6>
-    </div>
-    <div class="col-sm-3">
-      <div class="image border p-5 bg-dark">
-        <img src="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_55.svg" class="rb-contain">
-      </div>
-      <h6 class="text-left pt-3">White</h6>
-    </div>
-  </div>
+        <div class="image border p-5">
+            <img src="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_1.svg" class="rb-contain">
+        </div>
+        <p class="text-black pt-3 align-horizontally flex-space-between">
+            <span class="text-left color-gray-2 rb-isBold">Default</span>
+            <span class="text-right color-primary rb-isBold" style="float: right;">
+              <a href="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_1.svg"
+                 download
+                 class="button btn btn-sm btn-primary">Download SVG</a>
+            </span>
+        </p>
 
-  <div class="row mt-5">
-    <div class="col-sm-3">
-      <div class="image border p-5">
-        <img src="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_4.svg" class="rb-contain">
-      </div>
-      <h6 class="text-left pt-3">Default</h6>
     </div>
     <div class="col-sm-3">
-      <div class="image border p-5">
-        <img src="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_5.svg" class="rb-contain">
-      </div>
-      <h6 class="text-left pt-3">Black</h6>
+        <div class="image border p-5">
+            <img src="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_3.svg" class="rb-contain">
+        </div>
+        <p class="text-black pt-3 align-horizontally flex-space-between">
+            <span class="text-left color-gray-2 rb-isBold">Black</span>
+            <span class="text-right color-primary rb-isBold" style="float: right;">
+              <a download
+                 href="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_3.svg"
+                 class="button btn btn-sm btn-primary">Download SVG</a>
+            </span>
+        </p>
+    </div>
+    <div class="col-sm-3">
+        <div class="image border p-5 bg-dark">
+            <img src="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_55.svg" class="rb-contain">
+        </div>
+        <p class="text-black pt-3 align-horizontally flex-space-between">
+            <span class="text-left color-gray-2 rb-isBold">White</span>
+            <span class="text-right color-primary rb-isBold" style="float: right;">
+              <a download
+                 href="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_55.svg"
+                 class="button btn btn-sm btn-primary">Download SVG</a>
+            </span>
+        </p>
+    </div>
+</div>
+
+<div class="row mt-5">
+    <div class="col-sm-3">
+        <div class="image border p-5">
+            <img src="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_4.svg" class="rb-contain">
+        </div>
+        <p class="text-black pt-3 align-horizontally flex-space-between">
+            <span class="text-left color-gray-2 rb-isBold">Default</span>
+            <span class="text-right color-primary rb-isBold" style="float: right;">
+              <a download
+                 href="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_4.svg"
+                 class="button btn btn-sm btn-primary">Download SVG</a>
+            </span>
+        </p>
+    </div>
+    <div class="col-sm-3">
+        <div class="image border p-5">
+            <img src="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_5.svg" class="rb-contain">
+        </div>
+        <p class="text-black pt-3 align-horizontally flex-space-between">
+            <span class="text-left color-gray-2 rb-isBold">Black</span>
+            <span class="text-right color-primary rb-isBold" style="float: right;">
+              <a download
+                 href="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_5.svg"
+                 class="button btn btn-sm btn-primary">Download SVG</a>
+            </span>
+        </p>
     </div>
 
     <div class="col-sm-3">
-      <div class="image border p-5 bg-dark">
-        <img src="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_58.svg" class="rb-contain">
-      </div>
-      <h6 class="text-left pt-3">White</h6>
+        <div class="image border p-5 bg-dark">
+            <img src="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_58.svg" class="rb-contain">
+        </div>
+        <p class="text-black pt-3 align-horizontally flex-space-between">
+            <span class="text-left color-gray-2 rb-isBold">White</span>
+            <span class="text-right color-primary rb-isBold" style="float: right;">
+              <a download
+                 href="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_58.svg"
+                 class="button btn btn-sm btn-primary">Download SVG</a>
+            </span>
+        </p>
     </div>
-  </div>
+</div>
 
-  <div class="row mb-5">
+<div class="row mb-5">
     <div class="col-sm-3">
-      <div class="image border p-5">
-        <img src="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_7.svg" class="rb-contain">
-      </div>
-      <h6 class="text-left pt-3">Icon Default</h6>
+        <div class="image border p-5">
+            <img src="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_7.svg" class="rb-contain">
+        </div>
+        <p class="text-black pt-3 align-horizontally flex-space-between">
+            <span class="text-left color-gray-2 rb-isBold">Default</span>
+            <span class="text-right color-primary rb-isBold" style="float: right;">
+              <a download
+                 href="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_7.svg"
+                 class="button btn btn-sm btn-primary">Download SVG</a>
+            </span>
+        </p>
     </div>
     <div class="col-sm-3">
-      <div class="image border p-5">
-        <img src="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_8.svg" class="rb-contain">
-      </div>
-      <h6 class="text-left pt-3">Icon Black</h6>
+        <div class="image border p-5">
+            <img src="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_8.svg" class="rb-contain">
+        </div>
+        <p class="text-black pt-3 align-horizontally flex-space-between">
+            <span class="text-left color-gray-2 rb-isBold">Black</span>
+            <span class="text-right color-primary rb-isBold" style="float: right;">
+              <a download
+                 href="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_8.svg"
+                 class="button btn btn-sm btn-primary">Download SVG</a>
+            </span>
+        </p>
     </div>
     <div class="col-sm-3">
-      <div class="image bg-dark border p-5">
-        <img src="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_36.svg" class="rb-contain">
-      </div>
-      <h6 class="text-left pt-3">Icon White</h6>
+        <div class="image bg-dark border p-5">
+            <img src="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_36.svg" class="rb-contain">
+        </div>
+        <p class="text-black pt-3 align-horizontally flex-space-between">
+            <span class="text-left color-gray-2 rb-isBold">White</span>
+            <span class="text-right color-primary rb-isBold" style="float: right;">
+              <a download
+                 href="https://demo.identihub.co/assets/ReproducibleBuilds_ICONS_36.svg"
+                 class="button btn btn-sm btn-primary">Download SVG</a>
+            </span>
+        </p>
     </div>
-  </div>
+</div>
 
-  <div class="row mb-5">
+<div class="row mb-5">
     <div class="col-sm-6">
-      <div class="border p-5 text-left">
-        <h6>Download Reproducible Build Assets</h6>
-        <p class="m-0">This package includes .png and .svg files</p>
-        <a class="btn btn-lg btn-link p-0" href="https://demo.identihub.co/project/reproducible-builds" target="_blank">Visit Repo</a>
-      </div>
+        <div class="border p-5 text-left">
+            <h6>Download Reproducible Build Assets</h6>
+            <p class="m-0">This package includes .png and .svg files</p>
+            <a class="btn btn-lg btn-link p-0" href="https://demo.identihub.co/project/reproducible-builds"
+               download>Visit Repo</a>
+        </div>
     </div>
-  </div>
+</div>
 
           <h1 id="scrollspy"> </h1>
 <div class="page-header mb-4 mt-5 d-none d-sm-none">
     <h3>Scrollspy</h3>
     <!--p class="text-muted">Some Description about scrollspy.</p-->
 </div>
-<div class="row p-5 bg-light d-none d-sm-none">
+<div class="row p-0 pt-5 bg-light d-none d-sm-none">
     <div class="bd-example">
         <div class="row">
             <div class="col-4">
@@ -453,20 +523,21 @@
 
 
 <div class="row">
-    <div class="col-12">
+    <div class="col-12 p-0">
         <p class="mt-5 mb-5">
             <span class="text-muted small"> Styleguide code licensed under <a href="https://opensource.org/licenses/MIT" title="MIT" target="_blank">MIT</a>, documents licensed under a <a href="https://creativecommons.org/licenses/by/3.0/us/" title="CC 3.0" target="_blank">Creative Commons Attribution 3.0 United States License</a>. Reproducible Builds are a set of software development practices that create an independently-verifiable path from source code to the binary code used by computers.</span>
         </p>
     </div>
 </div>
 
-      </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 <script type="text/javascript" src="/reproducible-builds-styleguide/assets/javascript/index.js"></script>
 
+      </div>
+    </div>
   </body>
 </html>

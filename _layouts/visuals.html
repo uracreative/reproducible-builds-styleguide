@@ -14,7 +14,7 @@
           </div>
         </div>
       </div>
-        <div class="col-md-9 col-sm-8 col-xs-8 container">
+        <div class="col-md-9 col-sm-8 col-xs-8 container-wrapper">
           <h1>Visuals</h1>
           {{ content }}
           {% include /visuals/colors.html participants=site.data.profiles %}
@@ -22,8 +22,8 @@
           {% include /visuals/typography.html participants=site.data.profiles %}
           {% include /visuals/assets.html participants=site.data.profiles %}
           {% include scrollspy.html %}
+          {% include scripts.html %}
       </div>
     </div>
-    {% include scripts.html %}
   </body>
 </html>

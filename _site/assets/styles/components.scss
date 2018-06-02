@@ -57,6 +57,14 @@
   color: $secondary;
 }
 
-.font-family-serif {
-  $font: 'Overpass', serif !important;
+.color-gray-2 {
+  color: $oc-gray-6;
+}
+
+.rb-code {
+  font-family: 'Overpass Mono', monospace !important;
+}
+
+.rb-isBold {
+  font-weight: bold;
 }

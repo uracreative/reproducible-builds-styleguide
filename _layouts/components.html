@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  {% include head.html %}
-  <body>
-    {% include navbar.html %}
-    <div class="row">
-        <div class="col-md-3 col-sm-4 col-xs-4 p-0">
-          <div class="row" style="height: 100%">
+{% include head.html %}
+<body>
+{% include navbar.html %}
+<div class="row">
+    <div class="col-md-3 col-sm-4 col-xs-4 p-0">
+        <div class="row" style="height: 100%">
             <div class="col-md-6 col-sm-6 col-xs-6 p-0 display-md">
-              {% include navbar_side.html sidebarClassName="rb-sidebar__1" %}
+                {% include navbar_side.html sidebarClassName="rb-sidebar__1" %}
             </div>
             <div class="col-md-6 col-sm-12 col-xs-2 p-0">
-              {% include sidebar.html sidebarClassName="rb-sidebar__2" %}
+                {% include sidebar.html sidebarClassName="rb-sidebar__2" %}
             </div>
-          </div>
-        </div>
-        <div class="col-md-9 col-sm-8 col-xs-8 container-wrapper">
-          <!--{{ content }}-->
-          {% include components/buttons.html %}
-          {% include components/badges.html %}
-          {% include components/forms.html %}
-          {% include components/tables.html %}
-          {% include components/cards.html %}
-          {% include components/paginate.html %}
-          {% include components/alerts.html %}
-          {% include scrollspy.html %}
         </div>
     </div>
-    {% include scripts.html %}
-  </body>
+    <div class="col-md-9 col-sm-8 col-xs-8 container-wrapper">
+        <!--{{ content }}-->
+        {% include components/buttons.html %}
+        {% include components/badges.html %}
+        {% include components/forms.html %}
+        {% include components/tables.html %}
+        {% include components/cards.html %}
+        {% include components/paginate.html %}
+        {% include components/alerts.html %}
+    {% include scrollspy.html %}
+    </div>
+</div>
+{% include scripts.html %}
+</body>
 </html>
