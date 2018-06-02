@@ -79,7 +79,7 @@
 .btn-primary:hover { background-color: #2b89d6 !important; }
 
 .btn-outline-primary { border-color: #1e5b96 !important; color: #1e5b96 !important; }
-.btn-outline-primary:hover { border-color: #2b89d6 !important; color: #2b89d6 !important; }
+.btn-outline-primary:hover { background-color: #1e5b96 !important; color: white !important; }
 
 .btn-link { color: #1e5b96 !important; }
 .btn-link:hover { color: #2b89d6 !important; }

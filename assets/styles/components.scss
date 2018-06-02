@@ -81,8 +81,8 @@
   color: $primary !important;
 
   &:hover {
-    border-color: $secondary !important;
-    color: $secondary !important;
+    background-color: $primary !important;
+    color: white !important;
   }
 }
 
