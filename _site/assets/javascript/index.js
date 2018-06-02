@@ -41,9 +41,3 @@ $('.rb-sidebar').on('click', 'a',function() {
     $('.rb-sidebar a.active').removeClass('active');
     $(this).addClass('active');
 });
-
-
-$('a').click(function(e) {
-  e.preventDefault();  //stop the browser from following
-  window.location.href = 'uploads/file.doc';
-});
