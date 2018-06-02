@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90004ecf-242b-42e7-bff6-d1708a1d4fe6" name="Default" comment="Adding layout updates">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_includes/visuals/colors.html" afterPath="$PROJECT_DIR$/_includes/visuals/colors.html" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/styles/components.scss" afterPath="$PROJECT_DIR$/_site/assets/styles/components.scss" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/styles/main.css" afterPath="$PROJECT_DIR$/_site/assets/styles/main.css" />
+      <change beforePath="$PROJECT_DIR$/_includes/components/tables.html" afterPath="$PROJECT_DIR$/_includes/components/tables.html" />
+      <change beforePath="$PROJECT_DIR$/_site/components/index.html" afterPath="$PROJECT_DIR$/_site/components/index.html" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change beforePath="$PROJECT_DIR$/_site/visuals/index.html" afterPath="$PROJECT_DIR$/_site/visuals/index.html" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/components.scss" afterPath="$PROJECT_DIR$/assets/styles/components.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,11 +28,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="components.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="components.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/styles/components.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="298">
               <caret line="83" column="30" lean-forward="false" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tables.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/components/tables.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -111,7 +117,6 @@
         <option value="$PROJECT_DIR$/_includes/components/_colors.html" />
         <option value="$PROJECT_DIR$/_includes/visuals/_grid.html" />
         <option value="$PROJECT_DIR$/_includes/visuals/_typography.html" />
-        <option value="$PROJECT_DIR$/_includes/components/tables.html" />
         <option value="$PROJECT_DIR$/_includes/components/cards.html" />
         <option value="$PROJECT_DIR$/_includes/components/pagination.html" />
         <option value="$PROJECT_DIR$/_includes/components/paginate.html" />
@@ -145,6 +150,7 @@
         <option value="$PROJECT_DIR$/_includes/components/forms.html" />
         <option value="$PROJECT_DIR$/_includes/visuals/colors.html" />
         <option value="$PROJECT_DIR$/assets/styles/components.scss" />
+        <option value="$PROJECT_DIR$/_includes/components/tables.html" />
       </list>
     </option>
   </component>
@@ -277,7 +283,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16663000" />
+    <option name="totallyTimeSpent" value="16710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="842" extended-state="0" />
@@ -426,13 +432,6 @@
             <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/components/tables.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -934,6 +933,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="83" column="30" lean-forward="false" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/components/tables.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
           <folding />
         </state>
       </provider>
