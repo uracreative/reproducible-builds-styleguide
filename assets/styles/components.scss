@@ -101,3 +101,19 @@
 .badge-secondary {
   background-color: $secondary !important;
 }
+
+a {
+  color: $primary !important;
+  &:hover {
+    color: $secondary !important;
+  }
+}
+
+.rb-paginate-active {
+  background-color: $primary !important;
+  color: white !important;
+
+  &:hover {
+    background-color: $secondary !important;
+  }
+}
