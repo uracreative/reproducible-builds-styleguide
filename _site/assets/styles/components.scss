@@ -68,3 +68,36 @@
 .rb-isBold {
   font-weight: bold;
 }
+
+.btn-primary {
+  background-color: $primary !important;
+  &:hover {
+    background-color: $secondary !important;
+  }
+}
+
+.btn-outline-primary {
+  border-color: $primary !important;
+  color: $primary !important;
+
+  &:hover {
+    border-color: $secondary !important;
+    color: $secondary !important;
+  }
+}
+
+.btn-link {
+  color: $primary !important;
+
+  &:hover {
+    color: $secondary !important;
+  }
+}
+
+.badge-primary {
+  background-color: $primary !important;
+}
+
+.badge-secondary {
+  background-color: $secondary !important;
+}

@@ -75,6 +75,19 @@
 
 .rb-isBold { font-weight: bold; }
 
+.btn-primary { background-color: #1e5b96 !important; }
+.btn-primary:hover { background-color: #2b89d6 !important; }
+
+.btn-outline-primary { border-color: #1e5b96 !important; color: #1e5b96 !important; }
+.btn-outline-primary:hover { border-color: #2b89d6 !important; color: #2b89d6 !important; }
+
+.btn-link { color: #1e5b96 !important; }
+.btn-link:hover { color: #2b89d6 !important; }
+
+.badge-primary { background-color: #1e5b96 !important; }
+
+.badge-secondary { background-color: #2b89d6 !important; }
+
 @media (min-width: 992px) { .display-xs { display: none !important; } }
 @media (max-width: 992px) { .display-md { display: none !important; } }
 .display-md { display: unset; }
