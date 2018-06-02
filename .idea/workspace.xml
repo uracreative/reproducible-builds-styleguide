@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90004ecf-242b-42e7-bff6-d1708a1d4fe6" name="Default" comment="Adding layout updates">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_includes/components/cards.html" afterPath="$PROJECT_DIR$/_includes/components/cards.html" />
-      <change beforePath="$PROJECT_DIR$/_includes/scrollspy.html" afterPath="$PROJECT_DIR$/_includes/scrollspy.html" />
       <change beforePath="$PROJECT_DIR$/_includes/visuals/assets.html" afterPath="$PROJECT_DIR$/_includes/visuals/assets.html" />
-      <change beforePath="$PROJECT_DIR$/_layouts/getting-started.html" afterPath="$PROJECT_DIR$/_layouts/getting-started.html" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/styles/components.scss" afterPath="$PROJECT_DIR$/_site/assets/styles/components.scss" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/styles/main.css" afterPath="$PROJECT_DIR$/_site/assets/styles/main.css" />
-      <change beforePath="$PROJECT_DIR$/_site/components/index.html" afterPath="$PROJECT_DIR$/_site/components/index.html" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change beforePath="$PROJECT_DIR$/_site/getting-started/index.html" afterPath="$PROJECT_DIR$/_site/getting-started/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
       <change beforePath="$PROJECT_DIR$/_site/visuals/index.html" afterPath="$PROJECT_DIR$/_site/visuals/index.html" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/components.scss" afterPath="$PROJECT_DIR$/assets/styles/components.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,8 +21,8 @@
       <file leaf-file-name="assets.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/visuals/assets.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="149" column="6" lean-forward="true" selection-start-line="149" selection-start-column="6" selection-end-line="149" selection-end-column="6" />
+            <state relative-caret-position="460">
+              <caret line="140" column="10" lean-forward="false" selection-start-line="134" selection-start-column="4" selection-end-line="140" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -364,7 +354,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19741000" />
+    <option name="totallyTimeSpent" value="19801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="842" extended-state="0" />
@@ -1016,8 +1006,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/visuals/assets.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="149" column="6" lean-forward="true" selection-start-line="149" selection-start-column="6" selection-end-line="149" selection-end-column="6" />
+        <state relative-caret-position="460">
+          <caret line="140" column="10" lean-forward="false" selection-start-line="134" selection-start-column="4" selection-end-line="140" selection-end-column="10" />
           <folding />
         </state>
       </provider>
