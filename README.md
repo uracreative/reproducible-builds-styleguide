@@ -1,5 +1,3 @@
-Reproducible Builds Styleguide powered by Jekyll
-
 # About
 
 Reproducible builds are a set of software development practices that create an independently-verifiable path from source code to the binary code used by computers.
