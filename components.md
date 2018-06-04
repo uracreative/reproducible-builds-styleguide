@@ -5,8 +5,8 @@
 
   sidebar:
   - buttons: Buttons
-  - forms: Forms
   - badges: Badges
+  - forms: Forms
   - tables: Tables
   - cards: Cards
   - scrollspy: Scrollspy
