@@ -16,7 +16,7 @@
 
 .background-gray-1 {
   background-color: $oc-gray-1;
-}gi
+}
 
 .background-gray-2 {
   background-color: $oc-gray-2;
@@ -99,7 +99,7 @@
 }
 
 .badge-secondary {
-  background-color: $secondary !important;
+  background-color: $primary !important;
 }
 
 .rb-link {
@@ -120,4 +120,9 @@
 
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
   background-color: $oc-gray-1 !important;
+}
+
+.mark, mark {
+  background-color: $oc-gray-2 !important;
+  padding: .2em !important;
 }
