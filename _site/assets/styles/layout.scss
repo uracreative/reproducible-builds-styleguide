@@ -91,3 +91,14 @@
 .flex-space-between {
   justify-content: space-between;
 }
+
+
+.hidden-sm {
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}

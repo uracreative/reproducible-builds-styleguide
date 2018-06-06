@@ -32,6 +32,9 @@
 
 .flex-space-between { justify-content: space-between; }
 
+.hidden-sm { display: block; }
+
+@media screen and (max-width: 991px) { .hidden-sm { display: none !important; } }
 .color { height: 100px; }
 
 .grid { height: 100px; background-color: #1e5b96; border-radius: 7px; }
