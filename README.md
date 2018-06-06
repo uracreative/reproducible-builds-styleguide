@@ -1,3 +1,7 @@
+### Note
+The official repo has been moved to Debian Infrastructure: https://salsa.debian.org/reproducible-builds/reproducible-styleguide
+For comments, issues, Pull/Merge Requests please head over there.
+
 # About
 
 Reproducible builds are a set of software development practices that create an independently-verifiable path from source code to the binary code used by computers.
@@ -5,8 +9,6 @@ This guide aims to provide standards, principles and components to design consis
 
 
 # Getting started
-
-We are making Reproducible Builds usable for everyone.
 
 The Reproducible Builds styleguide is based on Bootstrap, an open-source toolkit for developing with HTML, CSS, and JS. We are currently on v4.1.0.
 
